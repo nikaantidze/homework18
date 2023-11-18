@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;1,700&family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(assets/Group\ 10\ Copy\ 2.svg) no-repeat right top;
+    background-color: #F7F7FE;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 40px;
+    padding-top: 64px;
+}
+
+
+.op{
+    color: #6E728E;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.an{
+    color: #6E728E;
+text-align: right;
+font-family:'Montserrat';
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 186.667% */
+opacity: 0.5;
+}
+
+.aan{
+    text-align: left;
+}
+
+nav{
+    display: inline-flex;
+    gap: 24px;
+}
+
+
+.toggle-area{
+    width: 56px;
+    height: 32px;
+    border: none;
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+    border-radius: 25px;
+    background: linear-gradient(#A2A7F0 0%, #696EDD 100%);
+    align-items: center;
+}
+
+.toggle-btn{
+    position: relative;
+    cursor:pointer;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 4px;
+    margin-right: 4px;
+
+}
+
+
+
+.toggle-area.monthly{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.toggle-area.anually{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 72%;
+    margin: 0 auto;
+    margin-top: 5.8rem;
+    max-width: 1440px;
+    row-gap: 50px;
+  }
+  
+  .pricing {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2.1rem 0.8rem;
+    font-weight: 700;
+  }
+  
+  .container-2 {
+    border-radius: 10px;
+    background: linear-gradient(135deg, #A2A7F0 0.06%, #696EDD 100.06%);
+    box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.50);
+    color: white;
+    width: 327px;
+    height: 453px;
+    flex-shrink: 0;
+    margin-top: -1.6rem;
+    margin-bottom: -1.6rem;
+    padding: 3rem 1rem;
+    text-align: center;
+    font-family: "Montserrat";
+  }
+  .container-1,
+  .container-3 {
+    width: 327px;
+    height: 453px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 20px 40px 0px rgba(212, 210, 244, 0.50);
+    text-align: center;
+    font-family: 'Montserrat ';
+  }
+  
+  .pricing h2 {
+    font-size: 1.23rem;
+    font-weight: 700;
+  }
+  
+
+
+  .container-1 h2,
+  .container-1 li,
+  .container-3 h2,
+  .container-3 li {
+    color: #6E728E;
+  }
+  .pricing p {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 auto;
+    font-size: 4.6rem;
+  }
+  
+  
+  .dollar-sign {
+    font-size: 2.5rem;
+    color: #4A4D60;
+  }
+  
+  .container-1 p,
+  .container-3 p {
+    color: #4A4D60;
+  }
+
+  .alo{
+    color: white;
+  }
+  
+  hr {
+    width: 90%;
+    border-width: 0.5px;
+    margin: 0 auto;
+    opacity: 0.25;
+    background: #6E728E;
+    border-style: solid;
+    opacity: 0.5;
+  }
+  .pricing ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .pricing ul li {
+    padding: 1.06rem;
+  }
+  
+  .pricing button {
+    cursor: pointer;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .container-2 button {
+    color:  #6D72DE;
+    background-color: white;
+  }
+  .container-1 button,
+  .container-3 button {
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 44px;
+    transition: background ease-in-out 0.3s;
+    transition: color ease-in-out 0.3s;
+  }
+  
+ 
+    .container-1 button:hover,
+    .container-3 button:hover {
+      background: white;
+      border-radius: 6px;
+      border: 1px solid #6D72DE;
+      color: #6D72DE;
+      border-width: 1px;
+      transition: background ease-in-out 0.3s;
+      transition: color ease-in-out 0.3s;
+    }
+    .container-2 button:hover {
+      background-color: transparent;
+      border-color: white;
+      color: white;
+      border-width: 1px;
+      transition: background ease-in-out 0.3s;
+      transition: color ease-in-out 0.3s;
+    }
+  
+
+    

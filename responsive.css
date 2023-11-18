@@ -1,0 +1,34 @@
+
+
+
+@media (width > 1439px) {
+    
+
+    body{
+    background: url(assets/Group\ 10\ Copy\ 2.svg) no-repeat, url(assets/Group\ 10\ Copy.png) no-repeat;
+    background-position: right top, left bottom;
+  }
+
+    .pricing-container{
+        flex-direction: row;
+        margin-bottom: 200px;
+    }
+
+    .container-2{
+        width: 350px;
+        height: 500px;
+
+    }
+
+    .container-1 button,
+    .container-2 button,
+    .container-3 button{
+        width: 288px;
+    }
+
+    .op{
+        border-top: 72px;
+    }
+
+    
+}
